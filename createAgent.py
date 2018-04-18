@@ -13,6 +13,10 @@ and finally lightbulbState which is an enum property that is also the output.
 
 import craftai
 
+config = {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvd25lciI6InRzaHRlcmVuYmVyZyIsInByb2plY3QiOiJNeVByb2plY3QiLCJyaWdodCI6IndyaXRlIiwicGxhdGZvcm0iOiJodHRwczovL2JldGEuY3JhZnQuYWkiLCJpYXQiOjE1MjM5MzU2NjMsImlzcyI6Imh0dHBzOi8vYmV0YS5jcmFmdC5haSIsImp0aSI6IjA4MGIzYWFiLWQ2M2ItNDUyZS1iZjkyLTc5YzcxMTQxOTUxOSJ9.WFs68SC_fQ2o7Ie6sZqBO-lSO83_egPVU9OyjlG2Ur8"
+}
+client = craftai.Client(config)
 
 agent_id = "my_first_agent"
 configuration = {
